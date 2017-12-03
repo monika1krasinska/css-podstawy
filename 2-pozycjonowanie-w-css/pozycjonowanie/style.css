@@ -1,4 +1,37 @@
 /*Selektor znacznika*/
-background {
-    color:aqua;
+body {
+    background-color: aqua;
+}
+
+#green {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    top: 20px;
+    left: 20px;
+    background-color: green;
+}
+
+#red {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+
+#blue {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+}
+#zafixowany {
+    background-color: lime;
+        height: 200px;
+        width: 200px;
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    
 }
